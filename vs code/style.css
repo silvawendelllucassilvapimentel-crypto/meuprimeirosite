@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    margin-top: 200px;
+    font-family: Arial;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#sim {
+    background-color: green;
+    color: white;
+}
+
+#nao {
+    background-color: red;
+    color: white;
+}
