@@ -1,11 +1,24 @@
 body {
-    text-align: center;
-    margin-top: 200px;
-    font-family: Arial;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffe6ee;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ff3366;
+    animation: aparecer 1s ease;
 }
 
 button {
     padding: 15px 30px;
+    margin: 10px;
     font-size: 20px;
     border: none;
     border-radius: 10px;
@@ -13,11 +26,42 @@ button {
 }
 
 #sim {
-    background-color: green;
+    background: #ff3366;
     color: white;
 }
 
 #nao {
-    background-color: red;
-    color: white;
+    background: #ddd;
+}
+
+.coracao {
+    position: fixed;
+    bottom: -50px;
+    font-size: 30px;
+    animation: subir 5s linear forwards;
+    pointer-events: none;
+}
+
+@keyframes subir {
+    from {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes aparecer {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
