@@ -553,20 +553,21 @@ footer p {
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 400px;
-        padding: 30px 20px;
+        min-height: 500px;
+        padding: 20px;
     }
 
     .inicio-logo {
         width: 100%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .inicio-logo img {
-        width: 330px;
-        max-width: 90%;
+        width: 380px;
+        max-width: 100%;
         height: auto;
     }
 
