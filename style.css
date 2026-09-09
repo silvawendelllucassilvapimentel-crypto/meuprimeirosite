@@ -400,9 +400,6 @@ footer p {
         min-height: 450px;
     }
 
-    .inicio-logo img {
-        width: 350px;
-    }
 
     section {
         padding: 45px 5%;
@@ -529,20 +526,6 @@ footer p {
 }
 
 
-/* CELULAR */
-
-@media (max-width: 450px) {
-
-    #carrinho-conteudo {
-        width: 290px;
-        right: -5px;
-    }
-
-    #abrir-carrinho {
-        padding: 13px 18px;
-    }
-
-}
 @media (max-width: 600px) {
 
     .inicio-conteudo {
@@ -550,25 +533,27 @@ footer p {
     }
 
     .inicio {
+        width: 100%;
+        min-height: 500px;
+        padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height: 500px;
-        padding: 20px;
     }
 
     .inicio-logo {
         width: 100%;
-        height: 100%;
+        height: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .inicio-logo img {
-        width: 380px;
-        max-width: 100%;
-        height: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        transform: scale(1);
     }
 
 }
