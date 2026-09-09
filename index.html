@@ -1,163 +1,264 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mercadão Resende</title>
+    <title>jj_supermercado_souzel</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- CABEÇALHO -->
+
     <header>
-        <h1>Mercadão Resende</h1>
+
+        <div class="logo">
+            <h1>jj_supermercados</h1>
+            <p>Qualidade e preço baixo</p>
+        </div>
 
         <nav>
             <a href="#inicio">Início</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#setores">Setores</a>
-            <a href="#contato">Contato</a>
+            <a href="#sobre">sobre</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#ofertas">ofertas</a>
         </nav>
+
     </header>
-  
+
+
+    <!-- INÍCIO -->
+
     <section id="inicio" class="inicio">
-        <h2>Bem-vindo ao Mercadão Resende!</h2>
+
+        <div class="inicio-conteudo">
+
+            <h2>Bem-vindo ao<br>jj_supermercados</h2>
+
+            <p>
+                Tudo o que você precisa em um só lugar.
+            </p>
+
+        </div>
+
+        <div class="inicio-logo">
+
+            <img src="imagens/logo.jpg" alt="Logo">
+
+        </div>
+
+    </section>
+
+
+    <!-- OFERTAS -->
+
+    <section id="ofertas" class="ofertas">
+
+        <h2>Ofertas da Semana</h2>
+
+        <div class="ofertas-container">
+
+            <div class="oferta" data-nome="Arroz" data-preco="10.99">
+                <div class="oferta-imagem">
+                    <img src="imagens/arroz.jpg" alt="Arroz">
+                </div>
+                <h3>Arroz</h3>
+                <p class="preco">R$ 10,99</p>
+                <button class="botao-carrinho">🛒 Adicionar</button>
+            </div>
+
+            <div class="oferta" data-nome="Feijão" data-preco="10.99">
+                <div class="oferta-imagem">
+                    <img src="imagens/feijao.jpg" alt="Feijão">
+                </div>
+                <h3>Feijão</h3>
+                <p class="preco">R$ 10,99</p>
+                <button class="botao-carrinho">🛒 Adicionar</button>
+            </div>
+
+            <div class="oferta" data-nome="Café" data-preco="10.99">
+                <div class="oferta-imagem">
+                    <img src="imagens/cafe.jpg" alt="Café">
+                </div>
+                <h3>Café</h3>
+                <p class="preco">R$ 10,99</p>
+                <button class="botao-carrinho">🛒 Adicionar</button>
+            </div>
+
+            <div class="oferta" data-nome="Açúcar" data-preco="10.99">
+                <div class="oferta-imagem">
+                    <img src="imagens/acucar.jpg" alt="Açúcar">
+                </div>
+                <h3>Açúcar</h3>
+                <p class="preco">R$ 10,99</p>
+                <button class="botao-carrinho">🛒 Adicionar</button>
+            </div>
+
+            <div class="oferta" data-nome="Arroz" data-preco="10.99">
+                <div class="oferta-imagem">
+                    <img src="imagens/arroz.jpg" alt="Arroz">
+                </div>
+                <h3>Arroz</h3>
+                <p class="preco">R$ 10,99</p>
+                <button class="botao-carrinho">🛒 Adicionar</button>
+            </div>
+
+            <div class="oferta" data-nome="Feijão" data-preco="10.99">
+                <div class="oferta-imagem">
+                    <img src="imagens/feijao.jpg" alt="Feijão">
+                </div>
+                <h3>Feijão</h3>
+                <p class="preco">R$ 10,99</p>
+                <button class="botao-carrinho">🛒 Adicionar</button>
+            </div>
+
+            <div class="oferta" data-nome="Café" data-preco="10.99">
+                <div class="oferta-imagem">
+                    <img src="imagens/cafe.jpg" alt="Café">
+                </div>
+                <h3>Café</h3>
+                <p class="preco">R$ 10,99</p>
+                <button class="botao-carrinho">🛒 Adicionar</button>
+            </div>
+
+            <div class="oferta" data-nome="Açúcar" data-preco="10.99">
+                <div class="oferta-imagem">
+                    <img src="imagens/acucar.jpg" alt="Açúcar">
+                </div>
+                <h3>Açúcar</h3>
+                <p class="preco">R$ 10,99</p>
+                <button class="botao-carrinho">🛒 Adicionar</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUTOS -->
+
+    <section id="produtos" class="produtos">
+
+        <h2>Nossos Produtos</h2>
+
+        <div class="produtos-container">
+
+            <div class="produto" data-nome="Arroz" data-preco="10.99">
+                <img src="imagens/arroz.jpg" alt="Arroz">
+                <h3>Arroz</h3>
+                <p>R$ 10,99</p>
+                <button class="botao-carrinho">🛒 Adicionar</button>
+            </div>
+
+            <div class="produto" data-nome="Feijão" data-preco="10.99">
+                <img src="imagens/feijao.jpg" alt="Feijão">
+                <h3>Feijão</h3>
+                <p>R$ 10,99</p>
+                <button class="botao-carrinho">🛒 Adicionar</button>
+            </div>
+
+            <div class="produto" data-nome="Café" data-preco="10.99">
+                <img src="imagens/cafe.jpg" alt="Café">
+                <h3>Café</h3>
+                <p>R$ 10,99</p>
+                <button class="botao-carrinho">🛒 Adicionar</button>
+            </div>
+
+            <div class="produto" data-nome="Açúcar" data-preco="10.99">
+                <img src="imagens/acucar.jpg" alt="Açúcar">
+                <h3>Açúcar</h3>
+                <p>R$ 10,99</p>
+                <button class="botao-carrinho">🛒 Adicionar</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SOBRE -->
+
+    <section id="sobre" class="sobre">
+
+        <h2>Sobre o jj_supermercados</h2>
 
         <p>
-            Qualidade, variedade e praticidade
-            para você e sua família.
+            O jj_supermercados oferece produtos para
+            o dia a dia, buscando qualidade e bons preços
+            para seus clientes.
         </p>
-     <img src="imagens/fachada.jpg" alt="Fachada do Mercadão Resende">
-        
-        </button>
+
     </section>
 
-    <section id="sobre">
-        <h2>Sobre nós</h2>
 
-        <p>
-            O Mercadão Resende oferece variedade,
-            qualidade e atendimento para seus clientes.
-        </p>
-    </section>
+    <!-- CONTATO -->
 
-    <section id="setores">
-        <h2>Nossos setores</h2>
+    <section class="contato">
 
-        <div class="cards">
-
-            <div class="card">
-                <h3>🥩 Açougue</h3>
-                <p>Carnes e produtos de qualidade.</p>
-            </div>
-
-            <div class="card">
-                <h3>🥬 Hortifruti</h3>
-                <p>Frutas, verduras e legumes.</p>
-            </div>
-
-            <div class="card">
-                <h3>🛒 Mercearia</h3>
-                <p>Produtos para o seu dia a dia.</p>
-            </div>
-
-        </div>
-    </section>
-<section id="produtos" class="produtos">
-
-    <h2>Nossos Produtos</h2>
-
-    <div class="produtos-container">
-
-        <div class="produto">
-            <img src="imagens/refrigerantes.jpg" alt="refrigerantes">
-            <h3>refrigerantes</h3>
-            <p>R$ 9,99</p>
-        </div>
-
-        <div class="produto">
-            <img src="imagens/promoções.jpg" alt="promoções">
-            <h3>promoções</h3>
-            <p>R$ 0,00</p>
-        </div>
-
-        <div class="produto">
-            <img src="imagens/frango.jpg" alt="frango">
-            <h3>frango</h3>
-            <p>R$ 11,99</p>
-        </div>
-
-        <div class="produto">
-            <img src="imagens/arroz.jpg" alt="arroz">
-            <h3>arroz</h3>
-            <p>R$ 0,00</p>
-        </div>
-
-    </div>
-
- </section>
-    <section id="contato">
-        <h2>Contato</h2>
-
-        <p id="resultado"></p>
-    </section>
-
-    <footer>
-        <p>© 2026 Mercadão Resende</p>
-    </footer>
-
-    <script src="script.js"></script>
-
-    <section id="contato" class="contato">
-
-    <h2>Mercadão Resende</h2>
-
-    <div class="contato-container">
-
-        <div class="foto-mercado">
-           <section id="imagem" class="imagem">
-    <h2>Conheça o Mercadão Resende</h2>
-
-    <img src="imagens/fachada.jpg" alt="Fachada do Mercadão Resende">
-</section>
-        </div>
+        <h2>Entre em contato</h2>
 
         <div class="informacoes">
 
-            <p>📍 <strong>Endereço:</strong><br>
-            Tv. Olivio Bahia - Bairro Maranhense</p>
-
-            <p>📞 <strong>Telefone:</strong><br>
-            <a href="tel:+5593991669873">
-                (93) 99166-9873
-            </a>
+            <p>
+                📍 tv.olivio bahia - bairro maranhense
             </p>
 
-            <p>💬 <strong>WhatsApp:</strong><br>
-            <a href="https://wa.me/5593991669873" target="_blank">
-                (93) 99166-9873
-            </a>
+            <p>
+                📷
+                <a href="https://www.instagram.com/jj_supermercado_souzel/">
+                    @jj_supermercados
+                </a>
             </p>
 
-            <p>📱 <strong>Instagram:</strong><br>
-            <a href="https://www.instagram.com/mercadaoresende/" target="_blank">
-                @mercadaoresende
-            </a>
+        </div>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>
+            © 2026 jj_supermercados
+        </p>
+
+    </footer>
+
+
+    <!-- CARRINHO -->
+
+    <div id="carrinho">
+
+        <button id="abrir-carrinho">
+            🛒 Carrinho (<span id="quantidade-carrinho">0</span>)
+        </button>
+
+        <div id="carrinho-conteudo">
+
+            <h2>Seu Carrinho</h2>
+
+            <div id="lista-carrinho"></div>
+
+            <p id="total-carrinho">
+                Total: R$ 0,00
             </p>
 
-            <a
-                class="botao-whatsapp"
-                href="https://wa.me/5593991669873"
-                target="_blank">
-                💬 FALAR NO WHATSAPP
-            </a>
+            <button id="enviar-whatsapp">
+                📱 Enviar pedido pelo WhatsApp
+            </button>
 
         </div>
 
     </div>
 
-</section>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
